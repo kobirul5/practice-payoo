@@ -27,9 +27,9 @@
                     <div class="divider"></div>
                     <!-- add money button -->
                     <div class="flex">
-                        <button id="add-money-option-btn" class="btn btn-lg">Add Money</button>
-                        <button id="cash-out-option-btn" class="btn btn-lg">Cash Out</button>
-                        <button id="transaction-btn" class="btn btn-lg">Transaction</button>
+                        <button id="add-money-show-btn" class="btn btn-lg">Add Money</button>
+                        <button id="cash-out-show-btn" class="btn btn-lg">Cash Out</button>
+                        <button id="transaction-show-btn" class="btn btn-lg">Transaction</button>
                     </div>
                     <div class="divider"></div>
                     <!-- add money -->
@@ -56,7 +56,7 @@
                     </div>
                     <!-- add money -->
                     <!-- cash out start -->
-                    <div id="cash-out-form" class=" card bg-base-100 w-full max-w-sm  shadow-2xl">
+                    <div id="cash-out-form" class=" hidden card bg-base-100 w-full max-w-sm  shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -78,6 +78,9 @@
                         </form>
                     </div>
                     <!-- cash out end -->
+                     <!-- transaction -->
+                      <h1 id="transaction-history" class="hidden">Transaction History</h1>
+                     <!-- transaction end -->
                 </div>
             </div>
         </div>
@@ -86,6 +89,7 @@
     <script src="/js/utillity.js"></script>
     <script src="/js/addmoney.js"></script>
     <script src="/js/cash-out.js"></script>
+    <script src="/js/featured.js"></script>
 </body>
 
 </html>
